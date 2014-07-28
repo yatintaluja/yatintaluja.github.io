@@ -442,8 +442,8 @@ div.article {
 
 #about strong.job{
   position: absolute;
-  margin-top: 400px;
-  margin-left: 0px;
+  margin-top: 390px;
+  margin-left: 10px;
   background: url('img/oc.png') no-repeat center center;
   width: 153px;
   height:105px;
@@ -457,8 +457,8 @@ div.article {
 
 .photo-frame .photo {
   background:url('img/memain.png') no-repeat center center;
-  width:220px;
-  height:570px;
+  width:250px;
+  height:750px;
   margin: 0 auto;
 }
 
