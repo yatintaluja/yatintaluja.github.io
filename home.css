@@ -308,7 +308,7 @@ body {
   position: absolute;
   right:45px;
   text-align: center;
-  top:125px;
+  top:120px;
   width:217px;
 }
 
@@ -684,7 +684,8 @@ h2 {
 
 #contact div.left-column {
   float: left;
-  width: 460px;
+  width: 434px;
+  display: inline-block;
 }
 
 
@@ -696,6 +697,7 @@ h2 {
 #contact div.right-column {
   float: left;
   margin-left:18px;
+  display: inline-block;
 }
 
 #contact div.right-column h2 {
