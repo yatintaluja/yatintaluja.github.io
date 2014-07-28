@@ -203,7 +203,7 @@ th {
 body {
 	background: #FFFFFF;
 	display: block;
-  font-family: times;
+  font-family: 'Shadows Into Light Two', cursive;
 }
 
 #container{
@@ -238,7 +238,6 @@ body {
 	text-decoration: none;
 	color: #F2F2F2;
 	font-size: 15px;
-	font-family: ARIAL;
 	display: inline-block;
 *display: inline;
 	padding-top: 15px;
@@ -268,7 +267,6 @@ body {
 	text-decoration: none;
 	color: #F2F2F2;
 	font-size: 20px;
-	font-family: 'walt-disney', Fallback, sans-serif;
 	display: inline-block;
 *display: inline;
 	padding-top: 15px;
@@ -284,8 +282,7 @@ body {
 }
 
 #homelink .email {
-	font-size: 12px;
-	font-family: ARIAL;
+	font-size: 14px;
 }
 
 
@@ -311,7 +308,7 @@ body {
   position: absolute;
   right:45px;
   text-align: center;
-  top:145px;
+  top:125px;
   width:217px;
 }
 
@@ -402,8 +399,9 @@ strong.mysql {
 }
 
 div.right-column .hello {
-  font-size: 247px;
+  font-size: 250px;
   margin:210px 0 0 0;
+  margin-left: 20px;
   padding:0;
   line-height: 188px;
   text-shadow:2px 2px white, 1px 1px #373737;
@@ -477,7 +475,8 @@ div.article {
 #about div.right-column p {
   font-size: 17px;
   margin:20px 0;
-  
+  font-family: 'The Girl Next Door', cursive;
+  font-weight: bold;
 }
 
 #skills {
@@ -693,33 +692,6 @@ h2 {
   margin-bottom: 12px;
 }
 
-form {
-  display: block;
-  margin-top: 0em;
-}
-
-#contact div.left-column input[type="text"], textarea {
-  background-color: #fff;
-  color:#373737;
-  border:1px solid #e3e3e3;
-  font-size: 14px;
-  padding: 8px 12px;
-  margin-bottom: 8px;
-  width: 428px;
-  min-width: 428px;
-  max-width:428px;
-}
-
-input[type="submit"] {
-  background: url("img/cb.png") no-repeat left top;
-  text-align: center;
-  height: 92px;
-  width: 92px;
-  border: none;
-  color: #fff;
-  font-size: 15px;
-  cursor: pointer;
-}
 
 #contact div.right-column {
   float: left;
@@ -735,8 +707,8 @@ input[type="submit"] {
   float: left;
   margin-bottom: 6px;
   color: #373737;
+  font-size: 18px;
 }
-
 #contact a {
   color:#373737;
 }
