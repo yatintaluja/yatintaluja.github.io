@@ -394,7 +394,7 @@ strong.mysql {
 
 #header div.right-column a.html {
   background-position: center bottom;
-  right: 0;
+  right: 20px;
   top: 0; 
 }
 
@@ -458,7 +458,7 @@ div.article {
 .photo-frame .photo {
   background:url('img/memain.png') no-repeat center center;
   width:250px;
-  height:750px;
+  height:810px;
   margin: 0 auto;
 }
 
