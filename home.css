@@ -45,6 +45,9 @@ template {
 a {
   background: transparent;
 }
+a:visited {
+  color: inherit;
+}
 a:active,
 a:hover {
   outline: 0;
@@ -308,8 +311,12 @@ body {
   position: absolute;
   right:45px;
   text-align: center;
-  top:120px;
+  top:100px;
   width:217px;
+}
+header div.left-column span a {
+  color: #373737;
+  text-decoration: none;
 }
 
 #header div.left-column p span{
@@ -417,7 +424,7 @@ div.article {
 }
 
 .div-layer {
-  height: 650px;
+  height: 200px;
   clear:both;
   margin: 0 auto;
 }
@@ -791,7 +798,7 @@ span.followme {
 
 #footer .share-social {
   float: right;
-  width: 250px;
+  width: 350px;
 }
 
 #footer .share-social .twitter {
